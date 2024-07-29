@@ -1,0 +1,32 @@
+.footer_container {
+background-color: rgb(246, 242, 242);
+padding: 2rem 0 2rem 0;
+}
+.icon_container {
+    display: flex;
+}
+.social_icon {
+    color: orange;
+   
+}
+
+.icon_container > *:not(:last-child) {
+    margin-right: 10px; 
+}
+
+.info_container p {
+    margin-bottom: 0%;
+
+}
+.info_container p:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+.social_container {
+    padding-left: 10px;
+}
+.social_icon:hover {
+    color: rgb(215, 141, 3);
+}
+
+
