@@ -38,7 +38,7 @@ const RenderAllBikes: React.FC = () => {
           <div className={`col-3 ${styles.bike_card}`} key={index}>
             {/* Render image */}
             <div className={styles.bike_image}>
-              {renderImage(parseInt(product.image), 'png')}
+              {renderImage(parseInt(product.image), '.png')}
             </div>
             {/* Render content */}
             <div className={styles.bike_content}>
