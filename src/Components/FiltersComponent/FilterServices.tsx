@@ -5,7 +5,7 @@ import Product from "../Interfaces/ProductInterface";
 export const renderImage = 
 (imgId: number, imgFormat: string = 'png') => 
 
-<img src={`./src/images/${imgId}.${imgFormat}`} alt=''/>
+<img src={`./public/images/${imgId}.${imgFormat}`} alt=''/>
 
 
 
